@@ -1247,6 +1247,7 @@ button i.fa {
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
+
 }
 .navbar-collapse.in {
   overflow-y: auto;
@@ -1303,7 +1304,7 @@ button i.fa {
   padding: 10px 15px;
   font-size: 18px;
   line-height: 20px;
-  height: 80px;
+  height:90px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -1412,17 +1413,18 @@ button i.fa {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #000000;
+  font-weight:bold;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #ff6387;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555555;
+  color: #ff6387;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -1481,10 +1483,11 @@ button i.fa {
 /* scaffolding */
 body {
   font-family: "Merriweather", "Times New Roman", Times, serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
   background-color: #ffffff;
+ 
 }
 a {
   color: #c27baa;
@@ -1536,7 +1539,7 @@ hr {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   border-radius: 3px;
 }
@@ -1544,6 +1547,7 @@ hr {
   color: #c27baa;
   background-color: #ffffff;
   border-color: #c27baa;
+  font-weight:600;
 }
 .btn-primary:hover,
 .btn-primary:focus,
