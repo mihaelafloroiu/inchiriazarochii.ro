@@ -1484,7 +1484,7 @@ button i.fa {
 /* scaffolding */
 body {
   font-family: "Merriweather", "Times New Roman", Times, serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
   background-color: #ffffff;
@@ -1901,4 +1901,9 @@ a.list-group-item.active > .badge,
 div.linie {
     background-color: #c27baa;
     height:15px;
+}
+div.designeri  {
+   margin: auto;
+   flex-align:center;
+   grid-column-align:center;
 }
