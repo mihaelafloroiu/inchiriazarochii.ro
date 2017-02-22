@@ -1906,4 +1906,6 @@ div.designeri  {
    margin: auto;
    flex-align:center;
    grid-column-align:center;
+   padding-left:100px;
+   padding-right:20px;
 }
