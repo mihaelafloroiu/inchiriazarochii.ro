@@ -1247,6 +1247,7 @@ button i.fa {
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
+  font-size:16px;
 
 }
 .navbar-collapse.in {
@@ -1254,7 +1255,7 @@ button i.fa {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-collapse {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) {
@@ -1418,7 +1419,7 @@ button i.fa {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ff6387;
+  color: #c27baa;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -1483,7 +1484,7 @@ button i.fa {
 /* scaffolding */
 body {
   font-family: "Merriweather", "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
   background-color: #ffffff;
@@ -1896,4 +1897,8 @@ a.list-group-item.active > .badge,
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 0;
   right: 0;
+}
+div.linie {
+    background-color: #c27baa;
+    height:15px;
 }
