@@ -1414,7 +1414,7 @@ font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  heigh
 }
 .navbar-default .navbar-nav > li > a {
   color: #000000;
-  font-weight:bold;
+  font-weight:800;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
