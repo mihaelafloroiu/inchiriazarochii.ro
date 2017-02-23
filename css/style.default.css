@@ -43,7 +43,7 @@
   text-decoration: underline;
 }
 .navbar li.active a {
-  text-decoration: none !important;
+  text-decoration: ;
 }
 .navbar .yamm-fw .dropdown-menu {
   padding: 0;
@@ -581,6 +581,7 @@ font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  heigh
 #content #categoryMenu ul.nav ul li a:focus {
   text-decoration: none;
   background-color: #eeeeee;
+ 
 }
 #content .info-bar {
   line-height: 32px;
@@ -1421,11 +1422,13 @@ font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  heigh
   color: #c27baa;
   background-color: transparent;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ff6387;
+  color: #c27baa;
   background-color: transparent;
+  text-decoration:underline;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
