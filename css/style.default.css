@@ -1109,7 +1109,7 @@ font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  heigh
   list-style: none;
 }
 #footer ul a {
-  color: #999999;
+  color: #000000;
 }
 #footer ul a:hover {
   color: #c27baa;
